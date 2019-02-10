@@ -1,0 +1,62 @@
+body {
+  background-color: #ECECEC; 
+  width: 100vw;
+  overflow-x: hidden;
+  margin: 0px;
+  font: 9pt sans-serif;
+  color: #444;
+}
+
+a {
+  color: #777;
+}
+
+figure {
+  /* Override user-agent stylesheet*/
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin: 0px;
+}
+
+.magenta-home {
+  background: url(../resources/magenta-home.svg);
+  width: 180px;
+  height: 52px;
+}
+
+header {
+  position: absolute;
+  padding-top: 18px;
+  margin: 0px 22px;
+}
+
+section {
+  text-align: center;
+}
+
+h1 {
+  margin: 0px 36px;
+  font: bold 32pt sans-serif;
+  color: #333;
+  padding-bottom: 44px;
+}
+
+h5 {
+  margin: 0px 36px;
+  font: bold 12pt sans-serif;
+  color: #777;
+  padding-bottom: 34px;
+}
+
+@media all and (max-width: 768px) {
+  header {
+    position: static;
+    padding: 22px;
+  }
+  .magenta-home {
+    position: relative;
+    left: calc(50% - 90px);
+  }
+}

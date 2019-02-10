@@ -1,0 +1,69 @@
+.magenta-logo {
+  background: url(../resources/magenta-logo.svg);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 96px;
+  margin-bottom: 22px;
+}
+
+.magenta-firstlook {
+  background: url(../resources/magenta-firstlook.png);
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: contain;
+  width: 100%;
+  height: 680px;
+}
+
+.section-1 {
+  padding-top: 44px;
+}
+
+@media all and (min-width: 2560px) {
+  .magenta-firstlook {
+    background-repeat: no-repeat;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .magenta-logo {
+    display: none;
+  }
+  .section-1 {
+    padding-top: 0px;
+  }
+  .magenta-firstlook {
+    background-image: url(../resources/magenta-firstlook-vector.svg);
+  }
+}
+
+.alternative-downloads {
+  margin-top: 2px;
+  display: inline-block;
+  text-align: left;
+}
+
+.download-button {
+  display: inline-block;
+  border: 1px solid #005AEB;
+  text-decoration: none;
+  font-size: 11pt;
+  border-radius: 4px;
+  padding: 1em;
+  color: #005AEB;
+}
+
+#showalternative {
+  text-decoration: none;
+  color: #717171;
+}
+
+#showalternative:hover {
+  text-decoration: underline;
+}
+
+.bottom-text {
+  margin-top: 44px;
+}
